@@ -28,8 +28,8 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-Hiaju text-white py-8 px-4 md:px-16">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    <footer className="bg-Hiaju text-white py-8 px-10 md:px-16 ">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
         {/* Branding */}
         <div>
           <h2 className="text-2xl font-bold">Dimas Portfolio</h2>
@@ -53,7 +53,7 @@ export default function Footer() {
         {/* Social Media */}
         <div>
           <h3 className="text-xl font-semibold">Follow Me</h3>
-          <div className="flex justify-center md:justify-start mt-2 space-x-4">
+          <div className="flex justify-start mt-2 space-x-4">
             {socialLinks.map((social) => (
               <a
                 key={social.id}
